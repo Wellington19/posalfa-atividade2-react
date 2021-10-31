@@ -1,0 +1,46 @@
+.Dashboard__header {
+  background-color: black;
+  height: 40px;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Dashboard__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Dashboard__animes-list {
+  display: grid;  
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  list-style: none;
+  grid-gap: 1.5rem;
+  
+}
+
+.Dashboard__animes-list li {
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Dashboard__animes-list li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Dashboard__animes-list img {
+  max-width: 100%;  
+}
